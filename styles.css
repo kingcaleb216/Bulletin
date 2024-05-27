@@ -34,6 +34,10 @@ h1 {
     margin-bottom: 10px;
 }
 
+.double-space {
+    margin-top: 20px;
+}
+
 .collapsible {
     background-color: #333;
     color: white;
@@ -47,10 +51,19 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: background-color 0.3s ease;
 }
 
-.collapsible:hover {
-    background-color: #555;
+.collapsible.active {
+    background-color: #555; /* Use the hover color as the active color */
+}
+
+.scripture-collapsible {
+    background-color: #2f3f48 !important; /* Different background color for scripture section */
+}
+
+.scripture-collapsible.active {
+    background-color: #455a67 !important; /* Use the hover color as the active color for scripture collapsible */
 }
 
 .content {
@@ -67,5 +80,6 @@ p {
 
 .icon {
     font-size: 20px;
+    color: white;
 }
 
