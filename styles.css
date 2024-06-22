@@ -2,12 +2,13 @@ body {
     background-color: #121212;
     color: #ffffff;
     font-family: 'Arial', sans-serif;
+    font-size: 18px;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -20,7 +21,7 @@ body {
 }
 
 .logo {
-    max-width: 100px; /* Adjust the size as needed */
+    max-width: 100px;
     height: auto;
     filter: none;
 }
@@ -36,6 +37,7 @@ h1 {
 
 .double-space {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .collapsible {
@@ -55,15 +57,15 @@ h1 {
 }
 
 .collapsible.active {
-    background-color: #555; /* Use the hover color as the active color */
+    background-color: #555;
 }
 
 .scripture-collapsible {
-    background-color: #2f3f48 !important; /* Different background color for scripture section */
+    background-color: #2f3f48 !important;
 }
 
 .scripture-collapsible.active {
-    background-color: #455a67 !important; /* Use the hover color as the active color for scripture collapsible */
+    background-color: #455a67 !important;
 }
 
 .content {
